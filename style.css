@@ -7,6 +7,31 @@ body {
     font-family: sans-serif;
 }
 
+.slider{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    border: solid 60px #f6eacd;;
+    margin-top: 30px;
+    width: 90%;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+
 .navbar {
     display: flex;
     position: relative;
@@ -76,7 +101,14 @@ body {
 .footer {
     position: relative;
     background-color: #3D3D3D;
-    height: 320px;
+    height: 380px;
     width: 100%;
     bottom: 0;
+}
+
+.footer img {
+    position: absolute;
+    width: 28%;
+    bottom: 0;
+    right: 0;
 }

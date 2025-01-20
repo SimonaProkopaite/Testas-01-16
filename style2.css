@@ -1,0 +1,21 @@
+.midPart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f6eacd;
+    flex: 70%;
+    height: auto;
+    padding-bottom: 50px;
+    margin: 10px 15px 0 15px;
+    text-align: center;
+}
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 0px 40px;
+    font-size: 20px;
+}
+
+.midPart img {
+    width: 100%;
+}
