@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The New Seven Wonders Of The World</title>
-    <link rel="icon" type="image/x-icon" href="">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/8635/8635653.png">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -14,13 +14,13 @@
 
     <div class="slider">
         <div class="slides">
-            <a href="page1.html"><img class="slide" src="GWoC.jpg" alt="pic 1"></a>
-            <a href="page2.html"><img class="slide" src="CI.jpg" alt="pic 2"></a>
-            <a href="page3.html"><img class="slide" src="Petra.jpg" alt="pic 3"></a>
-            <a href="page4.html"><img class="slide" src="MP.jpg" alt="pic 4"></a>
-            <a href="page5.html"><img class="slide" src="CtR.jpg" alt="pic 5"></a>
-            <a href="page6.html"><img class="slide" src="Col.jpg" alt="pic 6"></a>
-            <a href="page7.html"><img class="slide" src="TM.jpg" alt="pic 7"></a>
+            <a href="page1.html"><img class="slide" src="images/GWoC.jpg" alt="pic 1"></a>
+            <a href="page2.html"><img class="slide" src="images/CI.jpg" alt="pic 2"></a>
+            <a href="page3.html"><img class="slide" src="images/Petra.jpg" alt="pic 3"></a>
+            <a href="page4.html"><img class="slide" src="images/MP.jpg" alt="pic 4"></a>
+            <a href="page5.html"><img class="slide" src="images/CtR.jpg" alt="pic 5"></a>
+            <a href="page6.html"><img class="slide" src="images/Col.jpg" alt="pic 6"></a>
+            <a href="page7.html"><img class="slide" src="images/TM.jpg" alt="pic 7"></a>
         </div>
     </div>
 
@@ -70,7 +70,7 @@
     
     </div>
     <div class="footer">
-        <img src="KEBAB.png" onclick="alert('kebab says hi')">
+        <img src="images/KEBAB.png" onclick="alert('kebab says hi')">
     </div>
 
     <style>
@@ -102,6 +102,29 @@
     padding: 10px 20px 10px 20px;
     background-color: #e9d9b4;
 }
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.slider img{
+    margin-left: auto;
+    margin-right: auto;
+    border: 40px solid #f6eacd;
+    width: 60%;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
     </style>
 
     <script src="script.js"></script>
