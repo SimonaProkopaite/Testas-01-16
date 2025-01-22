@@ -23,21 +23,30 @@ body {
     align-items: center;
 }
 
-.navbar a:first-child {
-    color: white;
-    text-decoration: none;
-    font-size: 35px;
+.navbarTwo {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #376f5f;
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
 }
 
-.navbar a:nth-child(2) {
+.navbarTwo a {
+    display: flex;
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin: 15px 25px 15px 0px;
 }
 
-.navbar a:hover{
-    color: #20443a;
+.navbarTwo a:hover {
+    text-decoration: underline overline 4px #69a795;
 }
 
 .sideMid {
@@ -80,8 +89,10 @@ body {
 
 .footer {
     position: relative;
+    text-align: center;
+    padding-top: 80px;
     background-color: #3D3D3D;
-    height: 380px;
+    height: 250px;
     width: 100%;
     bottom: 0;
 }
@@ -91,4 +102,9 @@ body {
     width: 25%;
     bottom: 0;
     right: 0;
+}
+
+.footer p {
+    color: white;
+    font-size: 30px;
 }
